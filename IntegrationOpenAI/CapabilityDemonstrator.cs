@@ -34,7 +34,6 @@ namespace IntegrationOpenAI.Introduction
             {
                 new ChatMessage(ChatMessageRole.System,
                 "You will receive an English sentence and your task is to translate it into Spanish."),
-                  //  "You will be provided with a sentence in English, and your task is to translate it into Spanish."),
                 new ChatMessage(ChatMessageRole.User, translateText)
             };
 
